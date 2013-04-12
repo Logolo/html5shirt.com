@@ -1,0 +1,431 @@
+/* reset.css */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent; font-weight:normal}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:none;}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0, }
+
+@font-face {
+	font-family: 'museo-sans-1';
+	src: url('fonts/museosans_500-webfont.eot');
+	src: local('☺'), url('fonts/museosans_500-webfont.woff') format('woff'), url('fonts/museosans_500-webfont.ttf') format('truetype'), url('fonts/museosans_500-webfont.svg#webfont6kY1IVGu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'league-gothic-1';
+	src: url('fonts/League_Gothic-webfont.eot');
+	src: local('☺'), url('fonts/League_Gothic-webfont.woff') format('woff'), url('fonts/League_Gothic-webfont.ttf') format('truetype'), url('fonts/League_Gothic-webfont.svg#webfontOTINA1xY') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'calluna';
+	src: url('fonts/calluna-regular-webfont.eot');
+	src: local('☺'), url('fonts/calluna-regular-webfont.woff') format('woff'), url('fonts/calluna-regular-webfont.ttf') format('truetype'), url('fonts/calluna-regular-webfont.svg#webfonts6RMrQrn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+  background: #d9d9d9;
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "league-gothic-1";
+  font-weight:normal;
+}
+
+
+h3 { 
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "league-gothic-1";
+}
+
+#faq h3 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: "league-gothic-1";
+  color:#0092bf;
+}
+
+p {
+  font-family: "calluna";
+  margin-bottom: 1em;
+  font-size:1em;
+  line-height:1.2em;
+}
+
+#nexts4, #prevs4 {
+  font-family: "calluna";
+  margin-bottom: 1em;
+  font-size:1em;
+  line-height:1.2em;
+  margin-right:-1px;
+  font-style:italic;
+}
+
+
+a {
+  color: #0092bf;
+  text-decoration: none;
+}
+
+
+#wrapper {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 48px 0 0 0px;
+}
+
+
+.tag-bar {
+  width: 1000px;
+  background: #0092bf;
+  clear: both;
+}
+
+.tag-bar h2 {
+  font-size: 80px;
+  line-height: 140px;
+
+  text-transform: uppercase;
+  margin: 0 36px;
+  color: #fff;
+}
+
+section { 
+  margin:10px 0 0 0; 
+  display:block;
+}
+
+section section {
+  margin:0;
+}
+
+
+
+#shirt-promo {
+	background:#fff;
+	width:495px;
+	height:314px;
+	margin:0 10px 10px 0;
+	float:left;
+}
+
+#shirt-copy {
+	background:#fff;
+	width:443px;
+	height:262px;
+	margin:0 0 10px 0;
+	padding:26px;
+	float:left;
+}
+
+#shirt-copy h2 {
+ font-size:40px;
+ color:#f14a29;
+ margin-bottom:20px;
+}
+
+
+
+.shirt-submit {
+	border:0;
+	display:block;
+	width:326px;
+	background:#e54b26;
+	background-image:url('../img/gear-orange.png');
+	background-repeat:no-repeat;
+	background-position:12px 12px;
+	color:#fff;
+	margin:0;
+	padding:30px 0;
+	margin-top:10px;
+  	text-transform: uppercase;
+  	font-size:16px;
+	text-transform:uppercase;
+	font-family: "museo-sans-1";
+  	font-weight:100;
+  	cursor:pointer;
+  	
+}
+
+.shirt-submit:hover, .shirt-submit:focus  {
+	background-image:url('../img/gear-orange-action.png');
+	
+}
+
+.view-cart {
+	border:0;
+	display:block;
+	width:274px;
+	padding:0 26px;
+	text-align:left;
+	background:#fff;
+	color:#f14a29;
+	font-size: 50px;
+	margin:0;
+	padding:0;
+  	text-transform: uppercase;
+  	font-family: "league-gothic-1";
+  	cursor:pointer;
+}
+
+#view-cart {
+	float:right;
+}
+
+
+select.select-size {
+	width:274px;
+	font-size:14px;
+}
+
+.cart {
+  width:326px;
+  margin:0 0 0 0;
+}
+
+
+    		
+.cart-shots {
+
+}
+
+.cart-shot-left {
+	width:158px;
+	height:158px;
+	margin-right:10px;
+	margin-bottom:10px;
+	float:left;
+	background:#fff;
+}
+
+.cart-shot-right {
+	width:158px;
+	height:158px;
+	margin-bottom:10px;
+	float:left;
+	background:#fff;
+}
+
+.cart-info {
+	background:#fff;
+	padding:26px;
+}
+
+#one-color-svg { 
+	margin-bottom:16px;
+}
+
+.cart p {
+  font-size:14px;
+  line-height:16px;
+  font-style:italic;
+}
+
+
+.cart address {
+  font-family: "calluna";
+  margin-bottom:1em;
+  font-size:14px;
+  line-height:16px;
+  font-style:italic;
+  margin:0 0 0 40px;
+}
+
+#women, #children, #hoodie, #track {
+  margin-right:10px;
+  float:left;
+}
+
+#men, #beanie { 
+	float:left;
+}
+
+
+.cart h2 {
+  color:#0092bf;
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.cart p{
+  font-size:14px;
+  line-height:16px;
+  font-style:italic;
+}
+
+#shop-rules {
+}
+
+#shop-rules h2 {
+	color:#f14a29;
+	margin-bottom:10px;
+}
+
+#bulk-orders {
+	width:443px;
+	padding:26px;
+	padding-bottom:0;
+	background:#fff;
+	margin:0 10px 10px 0;
+	float:left;
+	min-height:140px;
+}
+
+
+#special-requests {
+	width:443px;
+	padding:26px;
+	padding-bottom:0;
+	background:#fff;
+	margin:0 0 10px 0;
+	float:left;
+	min-height:140px;
+}
+
+.divider {
+  width:1000px;
+  height:20px;
+  background:#b8b8b8;
+  clear:both;
+  margin:0 0 10px 0;
+}
+
+.divider-orange {
+  width:1000px;
+  height:16px;
+  background:#f14a29;
+  clear:both;
+  margin:0 0 10px 0;
+}
+
+.divider-blue {
+  width:1000px;
+  height:16px;
+  background:#0092bf;
+  clear:both;
+  margin:0 0 10px 0;
+}
+
+footer {
+  margin:0px 0 100px 0;
+}
+
+.outro h3 {
+  color:#333;
+  font-size:40px;
+  margin-bottom:14px;
+}
+
+.outro p {
+  color:#333;
+  font-family: "museo-sans-1", 'Trebuchet MS', sans-serif;
+  font-weight:100;
+  font-size:13px;
+}
+
+#credits {
+  width:326px;
+  margin-right:10px;
+  float:left;
+}
+
+#footer-html5-logo {
+float:left;
+margin:0 24px 50px 0;
+}
+
+#learn-more {
+  width:326px;
+  margin-right:10px;
+  float:left;
+}
+
+#learn-more li {
+  padding:0 0 6px 0;
+}
+
+#learn-more a, #join-the-movement p a {
+  color:#333;
+  font-family: "museo-sans-1", 'Trebuchet MS', sans-serif;
+  font-weight:100;
+  font-size:16px;
+}
+
+#join-the-movement {
+  width:326px;
+  float:left;
+}
+
+#join-the-movement a {
+	color:#333;
+}
+
+#join-form-box {
+  width:324px;
+  height:50px;
+  border:1px solid #333;
+  background:#fff;
+}
+
+#join-q {
+  width:210px;
+  height:40px;
+  background:#fff;
+  color:#333;
+  margin:5px;
+  padding:0;
+  border:0;
+  font-size:15px;
+  float:left;
+}
+
+#join-submit {
+  width:75px;
+  height:40px;
+  background:#333;
+  color:#fff;
+  margin:5px;
+  padding:0;
+  border:0;
+  text-transform:uppercase;
+  font-size:15px;
+  float:right;
+}
+
+.cleared {
+  clear:both;
+}
+
+.clear-left{
+  clear:left;
+}
+
+div#preload { display: none; }
+::-moz-selection{ background: #F14A29; color:#fff; text-shadow: none; }
+::selection { background:#F14A29; color:#fff; text-shadow: none; }
+
+
+.gloves img {
+	margin-bottom:9px;
+	}
+	
+#glove-show {
+	float:left;
+	width:662px;
+	height:337px;
+	margin-bottom:10px;
+	}
+	
+#glove-checkout {
+	float:right;
+	}
